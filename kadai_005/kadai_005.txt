@@ -1,0 +1,19 @@
+
+PS C:\Users\at201> git log --oneline
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\at201> cd C:\Users\at201\OneDrive\lesson2\20241220_kadai\git_challenge
+PS C:\Users\at201\OneDrive\lesson2\20241220_kadai\git_challenge> git init
+Initialized empty Git repository in C:/Users/at201/OneDrive/lesson2/20241220_kadai/git_challenge/.git/
+PS C:\Users\at201\OneDrive\lesson2\20241220_kadai\git_challenge> git add hello_world.txt
+PS C:\Users\at201\OneDrive\lesson2\20241220_kadai\git_challenge> git commit -m "Hello, world!を入力"
+[main (root-commit) e539c0d] Hello, world!を入力
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\at201\OneDrive\lesson2\20241220_kadai\git_challenge> git add hello_world.txt
+PS C:\Users\at201\OneDrive\lesson2\20241220_kadai\git_challenge> git commit -m "こんにちは、世界！を入力"
+[main 69f41e1] こんにちは、世界！を入力
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\at201\OneDrive\lesson2\20241220_kadai\git_challenge> git log --oneline
+69f41e1 (HEAD -> main) こんにちは、世界！を入力
+e539c0d Hello, world!を入力
+PS C:\Users\at201\OneDrive\lesson2\20241220_kadai\git_challenge> 
